@@ -42,6 +42,8 @@ button:focus, button:active, button:hover{ text-decoration: none; color: #498BF9
 
 a.recipe{ color: #498BF9;  }
 
+a.woche{font-size: 2.8em; line-height: 1.1;   }
+
 b{ font-weight: 500; }
 
 img{ width: 100%; }
@@ -104,16 +106,16 @@ header{ font-weight: 400; }
 
 header{ overflow: hidden; background: #fff; box-shadow: 0px 2px 10px rgba(0,0,0, .3); }
 
-header .logo{ float: left; height: 20px; margin: 20px 30px; }
+header .logo{ float: left; height: 40px; margin: 0px 30px; border-right: 3px solid #A9A9A9; padding: 10px 25px 15px 0px;  color: #498BF9; }
 
-header .logo img{ height: 100%; width: auto; }
+/*header .logo img{ height: 100%; width: auto; }*/
 
 
 header .main-menu{ display: inline-block; float: left; }
 
 header .main-menu > li{ float: left; }
 
-header .main-menu > li > a{ height: 60px; line-height: 60px; padding: 0 25px; border-right: 1px solid #eee; }
+header .main-menu > li > a{ height: 60px; line-height: 60px; padding: 0 25px; border-right: 1px solid #A9A9A9; }
 
 header .main-menu > li > a:hover{  background: #eee; }
 
